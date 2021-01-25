@@ -21,7 +21,13 @@ namespace UnrealBuildTool.Rules
 			PublicDependencyModuleNames.AddRange(
 				new string[]
 				{
-					"Core", "CoreUObject", "Engine", "InputCore"
+					"Core",
+					"CoreUObject",
+					"Engine",
+					"InputCore",
+#if UE_4_26_OR_LATER
+					"DeveloperSettings"
+#endif
 					// ... add other public dependencies that you statically link with here ...
 				}
 				);
