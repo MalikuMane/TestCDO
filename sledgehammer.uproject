@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "",
+	"Category": "",
+	"Description": "",
+	"Plugins": [
+		{
+			"Name": "FirstPlugin",
+			"Enabled": true
+		},
+		{
+			"Name": "SecondPlugin",
+			"Enabled": true
+		}
+	]
+}
