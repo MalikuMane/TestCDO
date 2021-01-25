@@ -1,0 +1,21 @@
+Begin Object Class=/Script/Engine.Blueprint Name="BP_MyGameInstance"
+   Begin Object Class=/Script/Engine.EdGraph Name="EventGraph"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="EventGraph"
+      Schema=Class'"/Script/BlueprintGraph.EdGraphSchema_K2"'
+      bAllowDeletion=False
+      GraphGuid=F1CE246CE6CD4B1A82D370F80BC4897C
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   ParentClass=Class'"/Script/SecondPlugin.MyGameInstance"'
+   BlueprintSystemVersion=2
+   UbergraphPages(0)=EdGraph'"EventGraph"'
+   CategorySorting(0)="Default"
+   ThumbnailInfo=SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+   GeneratedClass=BlueprintGeneratedClass'"BP_MyGameInstance_C"'
+   bLegacyNeedToPurgeSkelRefs=False
+   BlueprintGuid=A90B396FBED24CBFAC2F85F51A481B0B
+End Object
