@@ -1,0 +1,231 @@
+{
+	"GatherableTextData": [],
+	"Thumbnails": {
+		"Thumbnails": [
+			{
+				"ImageWidth": 0,
+				"ImageHeight": 0,
+				"CompressedImageData": "Base64:"
+			}
+		],
+		"Index": [
+			{
+				"ObjectClassName": "Blueprint",
+				"ObjectPathWithoutPackageName": "BP_MyGameInstance",
+				"FileOffset": 0
+			}
+		]
+	},
+	"Exports": {
+		"BP_MyGameInstance": {
+			"__Class": "Class /Script/Engine.Blueprint",
+			"__ObjectFlags": 11,
+			"__bNotForClient": true,
+			"__bNotForServer": true,
+			"__bIsAsset": true,
+			"__Value": {
+				"BaseClassAutoGen": {
+					"Data": {
+						"Digest": "5c38a5aefdd9b0b00b6b97d04d0e1e78fd63c0eb",
+						"Base64": [
+							"AAAAAAEAAAAEAAAAAAAAAAAAAAAAAgAAAAMAAAAEAAAAAAAAAAACAAAABAAAAAUAAAAIAAAAAAAAAAEAAAAAAQAAAAEAAAAGAAAABQAAAAgAAAAAAAAABwAA",
+							"AAABAAAACAAAAAkAAAABAAAABAAAAAAAAAAAAgAAAAoAAAABAAAABAAAAAAAAAAAAwAAAAsAAAAMAAAAAAAAAAAAAAAAAA0AAAAOAAAAEAAAAAAAAAAPAAAA",
+							"AAAAAAAAAAAAAAAAAAAAAABvOQupv0zSvvWFL6wLG0gaEAAAAAAAAAA="
+						]
+					},
+					"Objects": [
+						"Object:/Script/CoreUObject.Class /Script/SecondPlugin.MyGameInstance",
+						"Object:/Script/Engine.EdGraph /Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance:EventGraph",
+						"Object:/Script/UnrealEd.SceneThumbnailInfo /Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance:SceneThumbnailInfo_0",
+						"Object:/Script/Engine.BlueprintGeneratedClass /Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance_C"
+					],
+					"Names": [
+						"ParentClass",
+						"ObjectProperty",
+						"BlueprintSystemVersion",
+						"IntProperty",
+						"UbergraphPages",
+						"ArrayProperty",
+						"CategorySorting",
+						"NameProperty",
+						"Default",
+						"ThumbnailInfo",
+						"GeneratedClass",
+						"bLegacyNeedToPurgeSkelRefs",
+						"BoolProperty",
+						"BlueprintGuid",
+						"StructProperty",
+						"Guid",
+						"None"
+					]
+				}
+			}
+		},
+		"BP_MyGameInstance_C": {
+			"__Class": "Class /Script/Engine.BlueprintGeneratedClass",
+			"__SuperStruct": "Class /Script/SecondPlugin.MyGameInstance",
+			"__ObjectFlags": 9,
+			"__bIsAsset": true,
+			"__Value": {
+				"Data": "Base64:AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYCIQAAQAAAAEAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAA=",
+				"Objects": [
+					"Object:/Script/CoreUObject.Class /Script/SecondPlugin.MyGameInstance",
+					"Object:/Script/CoreUObject.Class /Script/CoreUObject.Object",
+					"Object:/Script/Engine.Blueprint /Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance",
+					"Object:/Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance_C /Game/Blueprints/BP_MyGameInstance.Default__BP_MyGameInstance_C"
+				],
+				"Names": [
+					"None",
+					"Game"
+				]
+			}
+		},
+		"Default__BP_MyGameInstance_C": {
+			"__Class": "BlueprintGeneratedClass /Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance_C",
+			"__ObjectFlags": 49,
+			"__Value": {
+				"Data": "Base64:AAAAAA==",
+				"Names": [
+					"None"
+				]
+			}
+		},
+		"BP_MyGameInstance:EventGraph": {
+			"__Class": "Class /Script/Engine.EdGraph",
+			"__Outer": "Blueprint /Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance",
+			"__ObjectFlags": 8,
+			"__Value": {
+				"Properties": {
+					"Schema": {
+						"__Type": "ObjectProperty",
+						"__Value": "Object:/Script/CoreUObject.Class /Script/BlueprintGraph.EdGraphSchema_K2"
+					},
+					"bAllowDeletion": {
+						"__Type": "BoolProperty",
+						"__Value": 0
+					},
+					"GraphGuid": {
+						"__Type": "StructProperty",
+						"__StructName": "Guid",
+						"__Value": "F1CE246CE6CD4B1A82D370F80BC4897C"
+					}
+				}
+			}
+		},
+		"PackageMetaData": {
+			"__Class": "Class /Script/CoreUObject.MetaData",
+			"__ObjectFlags": 2,
+			"__bNotForClient": true,
+			"__bNotForServer": true,
+			"__Value": {
+				"Properties": {},
+				"ObjectMetaDataMap": [
+					[
+						"Object:/Script/Engine.BlueprintGeneratedClass /Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance_C",
+						[
+							[
+								"BlueprintType",
+								"true"
+							]
+						]
+					],
+					[
+						null,
+						[
+							[
+								"BlueprintType",
+								"true"
+							]
+						]
+					]
+				],
+				"RootMetaDataMap": [
+					[
+						"PackageLocalizationNamespace",
+						"4CD40174C1524CAEBB3FBDFC3E6DF029"
+					]
+				]
+			}
+		},
+		"BP_MyGameInstance:SceneThumbnailInfo_0": {
+			"__Class": "Class /Script/UnrealEd.SceneThumbnailInfo",
+			"__Outer": "Blueprint /Game/Blueprints/BP_MyGameInstance.BP_MyGameInstance",
+			"__ObjectFlags": 8,
+			"__Value": {
+				"BaseClassAutoGen": {
+					"Data": "Base64:AAAAAAAAAAA=",
+					"Names": [
+						"None"
+					]
+				}
+			}
+		}
+	},
+	"Summary": {
+		"Tag": -1641380927,
+		"LegacyFileVersion": -7,
+		"LegacyUE3Version": 864,
+		"FileVersionUE4": 522,
+		"FileVersionLicenseeUE4": 0,
+		"CustomVersions": [
+			{
+				"Key": "29E575DDE0A346279D10D276232CDCEA",
+				"Version": 17
+			},
+			{
+				"Key": "375EC13C06E448FBB50084F0262A717E",
+				"Version": 4
+			},
+			{
+				"Key": "B0D832E41F894F0DACCF7EB736FD4AA2",
+				"Version": 10
+			},
+			{
+				"Key": "CFFC743F43B04480939114DF171D2073",
+				"Version": 37
+			},
+			{
+				"Key": "E4B068EDF49442E9A231DA0B2E46BB41",
+				"Version": 40
+			}
+		],
+		"TotalHeaderSize": 0,
+		"FolderName": "None",
+		"PackageFlags": 0,
+		"NameCount": 0,
+		"NameOffset": 0,
+		"LocalizationId": "4CD40174C1524CAEBB3FBDFC3E6DF029",
+		"GatherableTextDataCount": 0,
+		"GatherableTextDataOffset": 0,
+		"ExportCount": 6,
+		"ExportOffset": 0,
+		"ImportCount": 14,
+		"ImportOffset": 0,
+		"DependsOffset": 0,
+		"SoftPackageReferencesCount": 0,
+		"SoftPackageReferencesOffset": 0,
+		"SearchableNamesOffset": 0,
+		"ThumbnailTableOffset": 0,
+		"Guid": "BE812C45998C44B5838952DF2A5A24C2",
+		"PersistentGuid": "00000000000000000000000000000000",
+		"GenerationCount": 1,
+		"Generations": [
+			{
+				"ExportCount": 6,
+				"NameCount": 0
+			}
+		],
+		"SavedByEngineVersion": "0.0.0-0",
+		"CompatibleWithEngineVersion": "0.0.0-0",
+		"CompressionFlags": 0,
+		"CompressedChunks": [],
+		"PackageSource": 1589299021,
+		"AdditionalPackagesToCook": [],
+		"AssetRegistryDataOffset": 0,
+		"BulkDataStartOffset": 0,
+		"WorldTileInfoDataOffset": 0,
+		"ChunkIDs": [],
+		"PreloadDependencyCount": -1,
+		"PreloadDependencyOffset": 0
+	}
+}

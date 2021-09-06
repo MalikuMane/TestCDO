@@ -1,0 +1,395 @@
+{
+	"GatherableTextData": [],
+	"Thumbnails": {
+		"Thumbnails": [
+			{
+				"ImageWidth": 0,
+				"ImageHeight": 0,
+				"CompressedImageData": "Base64:"
+			}
+		],
+		"Index": [
+			{
+				"ObjectClassName": "Blueprint",
+				"ObjectPathWithoutPackageName": "BP_MySaveGame",
+				"FileOffset": 0
+			}
+		]
+	},
+	"Exports": {
+		"BP_MySaveGame": {
+			"__Class": "Class /Script/Engine.Blueprint",
+			"__ObjectFlags": 11,
+			"__bNotForClient": true,
+			"__bNotForServer": true,
+			"__bIsAsset": true,
+			"__Value": {
+				"BaseClassAutoGen": {
+					"Data": {
+						"Digest": "7c2c65e017aa1f1945e8f0e0a11694c6de1aca55",
+						"Base64": [
+							"AAAAAAEAAAAEAAAAAAAAAAAAAAAAAgAAAAMAAAAEAAAAAAAAAAACAAAABAAAAAUAAAAIAAAAAAAAAAEAAAAAAQAAAAEAAAAGAAAABQAAAAgAAAAAAAAABwAA",
+							"AAABAAAACAAAAAkAAAABAAAABAAAAAAAAAAAAgAAAAoAAAABAAAABAAAAAAAAAAAAwAAAAsAAAAMAAAAAAAAAAAAAAAAAA0AAAAOAAAAEAAAAAAAAAAPAAAA",
+							"AAAAAAAAAAAAAAAAAAAAAAC0IS52ZExLBr+wzJkzIC2YCAAAAAAAAAA="
+						]
+					},
+					"Objects": [
+						"Object:/Script/CoreUObject.Class /Script/FirstPlugin.MySaveGame",
+						"Object:/Script/Engine.EdGraph /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph",
+						"Object:/Script/UnrealEd.SceneThumbnailInfo /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:SceneThumbnailInfo_0",
+						"Object:/Script/Engine.BlueprintGeneratedClass /Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C"
+					],
+					"Names": [
+						"ParentClass",
+						"ObjectProperty",
+						"BlueprintSystemVersion",
+						"IntProperty",
+						"UbergraphPages",
+						"ArrayProperty",
+						"CategorySorting",
+						"NameProperty",
+						"None",
+						"ThumbnailInfo",
+						"GeneratedClass",
+						"bLegacyNeedToPurgeSkelRefs",
+						"BoolProperty",
+						"BlueprintGuid",
+						"StructProperty",
+						"Guid"
+					]
+				}
+			}
+		},
+		"BP_MySaveGame_C": {
+			"__Class": "Class /Script/Engine.BlueprintGeneratedClass",
+			"__SuperStruct": "Class /Script/FirstPlugin.MySaveGame",
+			"__ObjectFlags": 9,
+			"__bIsAsset": true,
+			"__Value": {
+				"Data": {
+					"Digest": "7c9ad3e36d5c1c2317c5fa5206a3174a4bda7ecb",
+					"Base64": [
+						"AAAAAAEAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAABAAAAAQAAAAAAAAABAAAAAwAAAAQAAAABACAAAAAAAAEAAAAQAAAAACAgAAAAAAAAAAIAAAAAAgAAAAAA",
+						"AAAAAAAAAQAAAAUAAAAAAAAAEAgEAAMAAAAGAAAABAAAAAAAAAAAAAAAAgAAAAAAAAAFAAAA"
+					]
+				},
+				"Objects": [
+					"Object:/Script/CoreUObject.Function /Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C:ExecuteUbergraph_BP_MySaveGame",
+					"Object:/Script/CoreUObject.Class /Script/FirstPlugin.MySaveGame",
+					"Object:/Script/CoreUObject.ScriptStruct /Script/Engine.PointerToUberGraphFrame",
+					"Object:/Script/CoreUObject.Class /Script/CoreUObject.Object",
+					"Object:/Script/Engine.Blueprint /Game/Blueprints/BP_MySaveGame.BP_MySaveGame",
+					"Object:/Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C /Game/Blueprints/BP_MySaveGame.Default__BP_MySaveGame_C"
+				],
+				"Names": [
+					"UberGraphFunction",
+					"ObjectProperty",
+					"None",
+					"StructProperty",
+					"UberGraphFrame",
+					"ExecuteUbergraph_BP_MySaveGame",
+					"Engine"
+				]
+			}
+		},
+		"Default__BP_MySaveGame_C": {
+			"__Class": "BlueprintGeneratedClass /Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C",
+			"__ObjectFlags": 49,
+			"__Value": {
+				"Data": "Base64:AAAAAAEAAAAEAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAADAAAA",
+				"Names": [
+					"UberGraphFrame",
+					"StructProperty",
+					"PointerToUberGraphFrame",
+					"None"
+				]
+			}
+		},
+		"BP_MySaveGame:EventGraph": {
+			"__Class": "Class /Script/Engine.EdGraph",
+			"__Outer": "Blueprint /Game/Blueprints/BP_MySaveGame.BP_MySaveGame",
+			"__ObjectFlags": 8,
+			"__Value": {
+				"Properties": {
+					"Schema": {
+						"__Type": "ObjectProperty",
+						"__Value": "Object:/Script/CoreUObject.Class /Script/BlueprintGraph.EdGraphSchema_K2"
+					},
+					"Nodes": {
+						"__Type": "ArrayProperty",
+						"__InnerType": "ObjectProperty",
+						"__Value": [
+							"Object:/Script/BlueprintGraph.K2Node_CallFunction /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph.K2Node_CallFunction_0",
+							"Object:/Script/BlueprintGraph.K2Node_CallFunction /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph.K2Node_CallFunction_1"
+						]
+					},
+					"bAllowDeletion": {
+						"__Type": "BoolProperty",
+						"__Value": 0
+					},
+					"GraphGuid": {
+						"__Type": "StructProperty",
+						"__StructName": "Guid",
+						"__Value": "F40E366DD9C44CBFBC534E519FEE9A94"
+					}
+				}
+			}
+		},
+		"BP_MySaveGame_C:ExecuteUbergraph_BP_MySaveGame": {
+			"__Class": "Class /Script/CoreUObject.Function",
+			"__Outer": "BlueprintGeneratedClass /Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C",
+			"__ObjectFlags": 1,
+			"__Value": {
+				"Data": {
+					"Digest": "3b15dba0546a503a460c81906cfebbbe37a00f83",
+					"Base64": [
+						"AAAAAAAAAAAAAAAAAAAAAAEAAAABAAAAAgAAAAEAAAAAAAAAAQAAAAQAAACUAAAAAAAAAAAAAAAAAAANAAAAEQAAAE4AAQAAAAIAAAABAAAABAtTAYAAAAAA",
+						"AAAAAAAA"
+					]
+				},
+				"Objects": [
+					null,
+					"Object:/Script/CoreUObject.Function /Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C:ExecuteUbergraph_BP_MySaveGame"
+				],
+				"Names": [
+					"None",
+					"IntProperty",
+					"EntryPoint"
+				]
+			}
+		},
+		"BP_MySaveGame:EventGraph.K2Node_CallFunction_0": {
+			"__Class": "Class /Script/BlueprintGraph.K2Node_CallFunction",
+			"__Outer": "EdGraph /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph",
+			"__ObjectFlags": 8,
+			"__Value": {
+				"BaseClassAutoGen": {
+					"Data": {
+						"Digest": "deb8b6c2b262f7f2ef643e606d1d6f9a509d0783",
+						"Base64": [
+							"AAAAAAEAAAAAAAAAAAAAAAEAAgAAAAMAAAAuAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAUAAAAGAAAABAAAAAAAAAAAAAAAAAcAAAAIAAAABAAAAAAA",
+							"AAAACQAAAAoAAAALAAAADAAAAAQAAAAAAAAAAIABAAANAAAADAAAAAQAAAAAAAAAAKAAAAAOAAAAAwAAABAAAAAAAAAADwAAAAAAAAAAAAAAAAAAAAAAAAAA",
+							"69rklLhL9ud0liqjmCWZNAoAAAAAAAAAAwAAAAAAAAABAAAAUhPVfpNJmMBbVsypextjngEAAABSE9V+k0mYwFtWzKl7G2OeEAAAAAgAAAAABwAAAEsyTm9k",
+							"ZQAHAAAAVGFyZ2V0AAcAAABUYXJnZXQAAAAAAAARAAAACgAAAAAAAAAAAAAAAAAAAAACAAAACgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+							"AwAAAAAAAAD/AAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAABAAAA0CenR65C9df+BDe7fvjiNAEAAADQJ6dHrkL11/4EN7t+",
+							"+OI0EgAAAAAAAAD/AAAAAAAAAAAAEQAAAAoAAAAEAAAAAAAAAAAAAAAAAgAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
+							"/wAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAFtVXIfBSVDfJNyOpyb5G+4BAAAAW1Vch8FJUN8k3I6nJvkb7hMAAAAA",
+							"AAAA/wAAAAAAAAAAAREAAAAKAAAABQAAAAAAAAAAAAAAAAIAAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAP8AAAAAAQAA",
+							"AAAAAAAGAAAASreNRLlGDPLF6Nu+5J6HXwAAAAABAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+						]
+					},
+					"Objects": [
+						"Object:/Script/CoreUObject.Class /Script/AIModule.AIBlueprintHelperLibrary",
+						"Object:/Script/BlueprintGraph.K2Node_CallFunction /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph.K2Node_CallFunction_0",
+						null,
+						"Object:/Script/AIModule.AIBlueprintHelperLibrary /Script/AIModule.Default__AIBlueprintHelperLibrary",
+						"Object:/Script/CoreUObject.Class /Script/Engine.Actor",
+						"Object:/Script/CoreUObject.Class /Script/AIModule.AIController",
+						"Object:/Script/BlueprintGraph.K2Node_CallFunction /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph.K2Node_CallFunction_1"
+					],
+					"Names": [
+						"bIsPureFunc",
+						"BoolProperty",
+						"FunctionReference",
+						"StructProperty",
+						"MemberReference",
+						"MemberParent",
+						"ObjectProperty",
+						"MemberName",
+						"NameProperty",
+						"GetAIController",
+						"None",
+						"NodePosX",
+						"IntProperty",
+						"NodePosY",
+						"NodeGuid",
+						"Guid",
+						"self",
+						"object",
+						"ControlledActor",
+						"ReturnValue"
+					]
+				}
+			}
+		},
+		"BP_MySaveGame:EventGraph.K2Node_CallFunction_1": {
+			"__Class": "Class /Script/BlueprintGraph.K2Node_CallFunction",
+			"__Outer": "EdGraph /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph",
+			"__ObjectFlags": 8,
+			"__Value": {
+				"BaseClassAutoGen": {
+					"Data": {
+						"Digest": "084742f8056aef0f79aa2af4824fb14048b47cf1",
+						"Base64": [
+							"AAAAAAEAAAAAAAAAAAAAAAEAAgAAAAEAAAAAAAAAAAAAAAEAAwAAAAQAAAAuAAAAAAAAAAUAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAHAAAABAAAAAAAAAAA",
+							"AAAAAAgAAAAJAAAABAAAAAAAAAAACgAAAAsAAAAMAAAADQAAAAQAAAAAAAAAALACAAAOAAAADQAAAAQAAAAAAAAAABABAAAPAAAABAAAABAAAAAAAAAAEAAA",
+							"AAAAAAAAAAAAAAAAAAAAAAAAW/i2R61IKQ2PdHSHvor72gsAAAAAAAAAAwAAAAAAAAABAAAASreNRLlGDPLF6Nu+5J6HXwEAAABKt41EuUYM8sXo277knodf",
+							"EQAAAAgAAAAABwAAAEsyTm9kZQAHAAAAVGFyZ2V0AAcAAABUYXJnZXQAAAAAAAASAAAACwAAAAAAAAAAAAAAAAAAAAACAAAACwAAAAAAAAAAAAAAAAAAAAAA",
+							"AAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAD/AAAAAAEAAAAAAAAAAwAAAFtVXIfBSVDfJNyOpyb5G+4AAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+							"AAAAAAABAAAA2IdOxgRCZaI3jS+3zGIIWQEAAADYh07GBEJlojeNL7fMYghZEwAAAAAAAAD/AAAAAAAAAAAAFAAAAAsAAAAEAAAAAAAAAAAAAAAAAgAAAAsA",
+							"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAHgAAAC9TY3JpcHQvRW5naW5lLkFjdG9yQ29tcG9uZW50AAUAAAAAAAAA/wAAAAAAAAAAAAAAAAEAAAAB",
+							"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAADPuIrE4S6nSthRclLnjtlkBAAAAM+4isThLqdK2FFyUueO2WRUAAAAAAAAA/wAAAAAAAAAAARIAAAAL",
+							"AAAABQAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAP8AAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA",
+							"AAAAAAAAAAAAAAAAAAAA"
+						]
+					},
+					"Objects": [
+						"Object:/Script/CoreUObject.Class /Script/Engine.Actor",
+						"Object:/Script/BlueprintGraph.K2Node_CallFunction /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph.K2Node_CallFunction_1",
+						null,
+						"Object:/Script/BlueprintGraph.K2Node_CallFunction /Game/Blueprints/BP_MySaveGame.BP_MySaveGame:EventGraph.K2Node_CallFunction_0",
+						"Object:/Script/CoreUObject.Class /Script/Engine.ActorComponent",
+						"Object:/Script/Engine.BlueprintGeneratedClass /Game/Blueprints/BP_ActorComponent.BP_ActorComponent_C"
+					],
+					"Names": [
+						"bIsPureFunc",
+						"BoolProperty",
+						"bIsConstFunc",
+						"FunctionReference",
+						"StructProperty",
+						"MemberReference",
+						"MemberParent",
+						"ObjectProperty",
+						"MemberName",
+						"NameProperty",
+						"GetComponentByClass",
+						"None",
+						"NodePosX",
+						"IntProperty",
+						"NodePosY",
+						"NodeGuid",
+						"Guid",
+						"self",
+						"object",
+						"ComponentClass",
+						"class",
+						"ReturnValue"
+					]
+				}
+			}
+		},
+		"PackageMetaData": {
+			"__Class": "Class /Script/CoreUObject.MetaData",
+			"__ObjectFlags": 2,
+			"__bNotForClient": true,
+			"__bNotForServer": true,
+			"__Value": {
+				"Properties": {},
+				"ObjectMetaDataMap": [
+					[
+						"Object:/Script/Engine.BlueprintGeneratedClass /Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C",
+						[
+							[
+								"BlueprintType",
+								"true"
+							]
+						]
+					],
+					[
+						null,
+						[
+							[
+								"BlueprintType",
+								"true"
+							]
+						]
+					]
+				],
+				"RootMetaDataMap": [
+					[
+						"PackageLocalizationNamespace",
+						"A38DD3A4208940D9805B3EC388600B41"
+					]
+				]
+			}
+		},
+		"BP_MySaveGame:SceneThumbnailInfo_0": {
+			"__Class": "Class /Script/UnrealEd.SceneThumbnailInfo",
+			"__Outer": "Blueprint /Game/Blueprints/BP_MySaveGame.BP_MySaveGame",
+			"__ObjectFlags": 8,
+			"__Value": {
+				"BaseClassAutoGen": {
+					"Data": "Base64:AAAAAAAAAAA=",
+					"Names": [
+						"None"
+					]
+				}
+			}
+		}
+	},
+	"Summary": {
+		"Tag": -1641380927,
+		"LegacyFileVersion": -7,
+		"LegacyUE3Version": 864,
+		"FileVersionUE4": 522,
+		"FileVersionLicenseeUE4": 0,
+		"CustomVersions": [
+			{
+				"Key": "29E575DDE0A346279D10D276232CDCEA",
+				"Version": 17
+			},
+			{
+				"Key": "375EC13C06E448FBB50084F0262A717E",
+				"Version": 4
+			},
+			{
+				"Key": "601D1886AC644F84AA16D3DE0DEAC7D6",
+				"Version": 47
+			},
+			{
+				"Key": "9C54D522A8264FBE9421074661B482D0",
+				"Version": 43
+			},
+			{
+				"Key": "B0D832E41F894F0DACCF7EB736FD4AA2",
+				"Version": 10
+			},
+			{
+				"Key": "CFFC743F43B04480939114DF171D2073",
+				"Version": 37
+			},
+			{
+				"Key": "E4B068EDF49442E9A231DA0B2E46BB41",
+				"Version": 40
+			}
+		],
+		"TotalHeaderSize": 0,
+		"FolderName": "None",
+		"PackageFlags": 0,
+		"NameCount": 0,
+		"NameOffset": 0,
+		"LocalizationId": "A38DD3A4208940D9805B3EC388600B41",
+		"GatherableTextDataCount": 0,
+		"GatherableTextDataOffset": 0,
+		"ExportCount": 9,
+		"ExportOffset": 0,
+		"ImportCount": 25,
+		"ImportOffset": 0,
+		"DependsOffset": 0,
+		"SoftPackageReferencesCount": 0,
+		"SoftPackageReferencesOffset": 0,
+		"SearchableNamesOffset": 0,
+		"ThumbnailTableOffset": 0,
+		"Guid": "465C44E8DC0045A9BBCBC1C742956109",
+		"PersistentGuid": "00000000000000000000000000000000",
+		"GenerationCount": 1,
+		"Generations": [
+			{
+				"ExportCount": 9,
+				"NameCount": 0
+			}
+		],
+		"SavedByEngineVersion": "0.0.0-0",
+		"CompatibleWithEngineVersion": "0.0.0-0",
+		"CompressionFlags": 0,
+		"CompressedChunks": [],
+		"PackageSource": 7937981,
+		"AdditionalPackagesToCook": [],
+		"AssetRegistryDataOffset": 0,
+		"BulkDataStartOffset": 0,
+		"WorldTileInfoDataOffset": 0,
+		"ChunkIDs": [],
+		"PreloadDependencyCount": -1,
+		"PreloadDependencyOffset": 0
+	}
+}

@@ -1,0 +1,252 @@
+{
+	"GatherableTextData": [],
+	"Thumbnails": {
+		"Thumbnails": [
+			{
+				"ImageWidth": 0,
+				"ImageHeight": 0,
+				"CompressedImageData": "Base64:"
+			}
+		],
+		"Index": [
+			{
+				"ObjectClassName": "UserDefinedStruct",
+				"ObjectPathWithoutPackageName": "S_Struct",
+				"FileOffset": 0
+			}
+		]
+	},
+	"Exports": {
+		"PackageMetaData": {
+			"__Class": "Class /Script/CoreUObject.MetaData",
+			"__ObjectFlags": 2,
+			"__bNotForClient": true,
+			"__bNotForServer": true,
+			"__Value": {
+				"Properties": {},
+				"ObjectMetaDataMap": [
+					[
+						"Object:/Script/Engine.UserDefinedStruct /Game/Blueprints/S_Struct.S_Struct",
+						[
+							[
+								"BlueprintType",
+								"true"
+							],
+							[
+								"Tooltip",
+								""
+							]
+						]
+					]
+				],
+				"RootMetaDataMap": [
+					[
+						"PackageLocalizationNamespace",
+						"EA14DFAF45DF4402A0CBF8C9CEF11DEA"
+					]
+				]
+			}
+		},
+		"S_Struct": {
+			"__Class": "Class /Script/Engine.UserDefinedStruct",
+			"__ObjectFlags": 11,
+			"__bNotAlwaysLoadedForEditorGame": true,
+			"__bIsAsset": true,
+			"__Value": {
+				"Data": {
+					"Digest": "50a9b8b004db44219b7dfc17e79affd8bc9e71c6",
+					"Base64": [
+						"AAAAAAEAAAAEAAAAAAAAAAAAAAAAAgAAAAMAAAAQAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAG9Ef7m0S2vDLat4oZhhh2IEAAAAAAAAAAEAAAAAAAAA",
+						"AQAAAAEAAAAFAAAAAQAgAAEAAAACAAAABgAAAAwAAABNZW1iZXJWYXJfMAAHAAAAAAAAAAEAAAAIAAAABQAAAAAAAAAAAAQAAAAAAgAAAAAAAAAAAAAABOAA",
+						"AAUAAAABAAAABAAAAAAAAAAAAQAAAAQAAAA="
+					]
+				},
+				"Objects": [
+					"Object:/Script/UnrealEd.UserDefinedStructEditorData /Game/Blueprints/S_Struct.S_Struct:UserDefinedStructEditorData_0",
+					null,
+					"Object:/Script/Engine.BlueprintGeneratedClass /Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C"
+				],
+				"Names": [
+					"EditorData",
+					"ObjectProperty",
+					"Guid",
+					"StructProperty",
+					"None",
+					"MemberVar_0_2_4709F25B4BF14EF193B0BB70AD17D698",
+					"DisplayName",
+					"Tooltip"
+				]
+			}
+		},
+		"S_Struct:UserDefinedStructEditorData_0": {
+			"__Class": "Class /Script/UnrealEd.UserDefinedStructEditorData",
+			"__Outer": "UserDefinedStruct /Game/Blueprints/S_Struct.S_Struct",
+			"__ObjectFlags": 8,
+			"__bNotAlwaysLoadedForEditorGame": true,
+			"__Value": {
+				"Properties": {
+					"UniqueNameId": {
+						"__Type": "UInt32Property",
+						"__Value": 3
+					},
+					"VariablesDescriptions": {
+						"__Type": "ArrayProperty",
+						"__InnerType": "StructProperty",
+						"__InnerStructName": "StructVariableDescription",
+						"__Value": [
+							{
+								"VarName": {
+									"__Type": "NameProperty",
+									"__Value": "MemberVar_0_2_4709F25B4BF14EF193B0BB70AD17D698"
+								},
+								"VarGuid": {
+									"__Type": "StructProperty",
+									"__StructName": "Guid",
+									"__Value": "4709F25B4BF14EF193B0BB70AD17D698"
+								},
+								"FriendlyName": {
+									"__Type": "StrProperty",
+									"__Value": "MemberVar_0"
+								},
+								"DefaultValue": {
+									"__Type": "StrProperty",
+									"__Value": ""
+								},
+								"Category": {
+									"__Type": "NameProperty",
+									"__Value": "object"
+								},
+								"SubCategory": {
+									"__Type": "NameProperty",
+									"__Value": "None"
+								},
+								"SubCategoryObject": {
+									"__Type": "SoftObjectProperty",
+									"__Value": "Object:/Game/Blueprints/BP_MySaveGame.BP_MySaveGame_C"
+								},
+								"PinValueType": {
+									"__Type": "StructProperty",
+									"__StructName": "EdGraphTerminalType",
+									"__Value": {
+										"TerminalCategory": {
+											"__Type": "NameProperty",
+											"__Value": "None"
+										},
+										"TerminalSubCategory": {
+											"__Type": "NameProperty",
+											"__Value": "None"
+										},
+										"TerminalSubCategoryObject": {
+											"__Type": "ObjectProperty",
+											"__Value": null
+										},
+										"bTerminalIsConst": {
+											"__Type": "BoolProperty",
+											"__Value": 0
+										},
+										"bTerminalIsWeakPointer": {
+											"__Type": "BoolProperty",
+											"__Value": 0
+										},
+										"bTerminalIsUObjectWrapper": {
+											"__Type": "BoolProperty",
+											"__Value": 0
+										}
+									}
+								},
+								"ContainerType": {
+									"__Type": "EnumProperty",
+									"__EnumName": "EPinContainerType",
+									"__Value": "EPinContainerType::None"
+								},
+								"bDontEditOnInstance": {
+									"__Type": "BoolProperty",
+									"__Value": 0
+								},
+								"bEnableSaveGame": {
+									"__Type": "BoolProperty",
+									"__Value": 0
+								},
+								"bEnableMultiLineText": {
+									"__Type": "BoolProperty",
+									"__Value": 0
+								},
+								"bEnable3dWidget": {
+									"__Type": "BoolProperty",
+									"__Value": 0
+								},
+								"CurrentDefaultValue": {
+									"__Type": "StrProperty",
+									"__Value": ""
+								},
+								"ToolTip": {
+									"__Type": "StrProperty",
+									"__Value": ""
+								}
+							}
+						]
+					}
+				}
+			}
+		}
+	},
+	"Summary": {
+		"Tag": -1641380927,
+		"LegacyFileVersion": -7,
+		"LegacyUE3Version": 864,
+		"FileVersionUE4": 522,
+		"FileVersionLicenseeUE4": 0,
+		"CustomVersions": [
+			{
+				"Key": "375EC13C06E448FBB50084F0262A717E",
+				"Version": 4
+			},
+			{
+				"Key": "CFFC743F43B04480939114DF171D2073",
+				"Version": 37
+			},
+			{
+				"Key": "E4B068EDF49442E9A231DA0B2E46BB41",
+				"Version": 40
+			}
+		],
+		"TotalHeaderSize": 0,
+		"FolderName": "None",
+		"PackageFlags": 0,
+		"NameCount": 0,
+		"NameOffset": 0,
+		"LocalizationId": "EA14DFAF45DF4402A0CBF8C9CEF11DEA",
+		"GatherableTextDataCount": 0,
+		"GatherableTextDataOffset": 0,
+		"ExportCount": 3,
+		"ExportOffset": 0,
+		"ImportCount": 8,
+		"ImportOffset": 0,
+		"DependsOffset": 0,
+		"SoftPackageReferencesCount": 1,
+		"SoftPackageReferencesOffset": 0,
+		"SearchableNamesOffset": 0,
+		"ThumbnailTableOffset": 0,
+		"Guid": "73035C7F9A2F475D9BD2D68609D0DD92",
+		"PersistentGuid": "00000000000000000000000000000000",
+		"GenerationCount": 1,
+		"Generations": [
+			{
+				"ExportCount": 3,
+				"NameCount": 0
+			}
+		],
+		"SavedByEngineVersion": "0.0.0-0",
+		"CompatibleWithEngineVersion": "0.0.0-0",
+		"CompressionFlags": 0,
+		"CompressedChunks": [],
+		"PackageSource": 3566443777,
+		"AdditionalPackagesToCook": [],
+		"AssetRegistryDataOffset": 0,
+		"BulkDataStartOffset": 0,
+		"WorldTileInfoDataOffset": 0,
+		"ChunkIDs": [],
+		"PreloadDependencyCount": -1,
+		"PreloadDependencyOffset": 0
+	}
+}
